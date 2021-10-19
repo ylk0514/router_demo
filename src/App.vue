@@ -12,6 +12,7 @@ export default {
 <template>
   <div>
     <router-view></router-view>
+    <p>修改测试</p>
     <TabBar>
       <!--自定义path属性，用于传值.和TabItem.vue中props对应-->
       <TabItem path="/home"  textColor="pink">
